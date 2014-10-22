@@ -148,13 +148,16 @@ def get_closest_neighbors(node):
 open_network()
 
 text = intial_text_clean(source)
+
 process_and_add(text)
 
 clean_network()
 write_network()
 
 output_weight_ranked_file()
-output_word_ranked_connections('religion')
+
+#input a word and the program will output the closest associations of this word
+output_word_ranked_connections('spain') 
 
 #nx.write_gml(network,'{}_network_of_words.gml'.format(file_name))
 
