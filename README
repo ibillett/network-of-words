@@ -1,28 +1,24 @@
-<!doctype html>
-<html>
-<head>
-</head>
-<body>
-<h1><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">Network of Words&nbsp;</span></h1>
+#Network of Words 
 
-<p><span style="font-size:14px;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">This python programme conducts sentiment analysis by analysing the strength of associations between words in an input .txt file.&nbsp;</span></span></p>
+This python programme conducts sentiment analysis by analysing the strength of associations between words in an input .txt file. 
 
-<h1><span style="font-size:22px;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">But ... <em>why</em>?</span></span></h1>
+##But ... *why*?
 
-<p><span style="font-size:14px;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">The idea is that with enough data input we will be able to see quantifiable differences in the word associations&nbsp;made&nbsp;between media sources. Then we can&nbsp;see&nbsp;how media sources affect&nbsp;our perceptions of certain ideas, people or objects. For&nbsp;example,&nbsp;the words most heavily associated with the word &#39;immigrant&#39; in the Daily Mail and The Guardian will be very different. The Network of Words provides a framework for this analysis.</span></span></p>
+The idea is that with enough data input we will be able to see quantifiable differences in the word associations made between media sources. Then we can see how media sources affect our perceptions of certain ideas, people or objects. For example, the words most heavily associated with the word 'immigrant' in the Daily Mail and The Guardian will be very different. The Network of Words provides a framework for this analysis.
 
-<p><span style="font-size:22px;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">How does it work?</span></span></p>
+##How does it work?
 
-<p><span style="font-size:14px;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">Assocations between words are measured by the frequency with which words appear in the same sentence. Words are stored as nodes in the graph then&nbsp;frequencies are stored as weights between nodes, being increased everytime an association is made.&nbsp;Incredibly common words are omitted to increase clarity of analysis and save processing.</span></span></p>
+Assocations between words are measured by the frequency with which words appear in the same sentence. Words are stored as nodes in the graph then frequencies are stored as weights between nodes, being increased everytime an association is made. Incredibly common words are omitted to increase clarity of analysis and save processing.
 
-<p><span style="font-size:14px;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">The programme then outputs 3 files: i)&nbsp;the raw network, ii)&nbsp;associations ranked highest to lowest, iii) associations from a user defined word&nbsp;ranked highest to lowest.&nbsp;</span></span></p>
+The programme then outputs 3 files: i) the raw network, ii) associations ranked highest to lowest, iii) associations from a user defined word ranked highest to lowest. 
 
-<p><span style="font-size:20px;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">Usage notes</span></span></p>
+##Usage notes
 
-<p><span style="font-size:14px;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">To specify the name of the input file, simply change the file_name string variable.</span></span></p>
+To specify the name of the input file, simply change the file_name string variable.
 
-<p><span style="font-size:14px;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">To see the assocations of a certain word from the input file, change the argument in the output_word_ranked_connections() function at the bottom.</span></span></p>
+To see the assocations of a certain word from the input file, change the argument in the output_word_ranked_connections() function at the bottom.
 
-<p><font face="lucida sans unicode, lucida grande, sans-serif"><span style="font-size: 14px;">Examples of outputs are given in this repo.</span></font></p>
-</body>
-</html>
+Examples of outputs are given in this repo.
+
+
+

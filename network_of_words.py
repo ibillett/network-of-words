@@ -123,7 +123,7 @@ def output_weight_ranked_file():
 	Outputs all word associations from the source text by descending frequency.
 	"""
 	output = open('{}_weight_ranked_network_edges.txt'.format(file_name),'w')
-	for a, b, dct in sorted(network.edges(data = True), key = lambda (a, b, dct): dct, reverse=True):
+	for a, b, dct in sorted(network.edges(data = True), key = lambda (a, b, dct): dct, reverse=True)[:200]:
 		output.write('{a:<15} {b:<15} {dct} \n'.format(a = a, b = b, dct = dct))
 	pass
 
