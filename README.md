@@ -18,7 +18,7 @@ The programme then outputs 3 files: i) the raw network, ii) associations ranked 
 * To see the assocations of a certain word from the input file, change the argument in the output_word_ranked_connections() function at the bottom.
 * Examples of outputs are given in this repo.
 
-##Areas for Improvement? 
+##Areas for improvement? 
 
 * Integration with a NLP toolkit like NLTK will help to remove false positives that exist. For example removing more common verbs or giving the user more control over what is in the output file.
 * Much larger, more diverse input files. The examples given are just ripped from wiki! *Garbage in, garbage out…*
