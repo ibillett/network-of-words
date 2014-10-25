@@ -14,11 +14,9 @@ The programme then outputs 3 files: i) the raw network, ii) associations ranked 
 
 ##Usage notes
 
-To specify the name of the input file, simply change the file_name string variable.
-
-To see the assocations of a certain word from the input file, change the argument in the output_word_ranked_connections() function at the bottom.
-
-Examples of outputs are given in this repo.
+*To specify the name of the input file, simply change the file_name string variable.
+*To see the assocations of a certain word from the input file, change the argument in the output_word_ranked_connections() function at the bottom.
+*Examples of outputs are given in this repo.
 
 ##Areas for Improvement? 
 
