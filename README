@@ -2,7 +2,7 @@
 
 This python programme conducts sentiment analysis by analysing the strength of associations between words in an input .txt file. 
 
-##But ... *why*?
+##But... *why*?
 
 The idea is that with enough data input we will be able to see quantifiable differences in the word associations made between media sources. Then we can see how media sources affect our perceptions of certain ideas, people or objects. For example, the words most heavily associated with the word 'immigrant' in the Daily Mail and The Guardian will be very different. The Network of Words provides a framework for this analysis.
 
